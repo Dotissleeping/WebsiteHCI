@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UEP Cafe</title>
+  <link rel="icon" href="logo.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="MainStyle.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+
+      <div class="navbar-header">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand" href="#home">
+    <img src="logo.jpg" alt="Logo" class="logo">
+    <span class="brand-text">University of Eastern Pangasinan Cafe <i class="fa fa-coffee coffee-icon"></i></span>
+  </a>
+</div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="home" class="section home-section">
+    <div class="container text-center">
+      <h1>Welcome to UEP Cafe</h1>
+      <p>Freshly brewed coffee crafted for your perfect day. Our bestsellers await. Taste tradition and comfort in every sip.</p>
+      <img src="UEP-Cafe.jpg" class="img-responsive center-block home-img">
+    </div>
+  </section>
+
+
+  <section id="product" class="section">
+    <div class="container">
+      <h2 class="text-center">Our Products</h2>
+      <div class="row">
+        <!-- Product Card -->
+        <div class="col-sm-6 col-md-4">
+          <div class="product-card">
+            <img src="menu-item-1.jpg" alt="Espresso" class="img-responsive">
+            <h4>Espresso</h4>
+            <p class="description">Rich, bold flavor in a single shot.</p>
+            <p>₱120.00</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="product-card">
+            <img src="menu-item-2.jpg" alt="Latte" class="img-responsive">
+            <h4>Latte</h4>
+            <p class="description">Smooth espresso with creamy milk.</p>
+            <p>₱130.00</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="product-card">
+            <img src="menu-item-3.jpg" alt="Cappuccino" class="img-responsive">
+            <h4>Cappuccino</h4>
+            <p class="description">Perfect foam and strong taste.</p>
+            <p>₱140.00</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="product-card">
+            <img src="menu-item-4.jpg" alt="Mocha" class="img-responsive">
+            <h4>Mocha</h4>
+            <p class="description">Chocolate blended with espresso.</p>
+            <p>₱150.00</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="product-card">
+            <img src="menu-item-5.jpg" alt="Macchiato" class="img-responsive">
+            <h4>Macchiato</h4>
+            <p class="description">Espresso with a dash of milk foam.</p>
+            <p>₱135.00</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="product-card">
+            <img src="menu-item-6.jpg" alt="Affogato" class="img-responsive">
+            <h4>Affogato</h4>
+            <p class="description">Espresso over vanilla ice cream.</p>
+            <p>₱160.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="section">
+  <div class="container about-container">
+    <h2 class="text-center">About UEP Cafe</h2>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="about-text-card">
+          <p class="text-justify">
+            UEP Cafe was established in 2025 by a passionate student who wanted to share his love for coffee with the university community.
+            Our coffee is made from freshly ground beans, crafted carefully with precision and heart. We believe in bringing people together over a perfect cup.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="about-img-wrapper">
+          <img src="Night.jpg" alt="Cafe ambiance" class="img-responsive about-img">
+        </div>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top: 20px;">
+      <a href="https://www.google.com/maps/place/Binalonan,+Pangasinan" target="_blank" class="btn btn-map">View Our Location on Google Maps</a>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="feedback">Your Feedback</label>
+          <textarea id="feedback" class="form-control" rows="5" placeholder="Write your feedback here..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" disabled>Send</button>
+      </form>
+      <hr>
+      <p><strong>Email:</strong> UEPcafe@gmail.com</p>
+      <p><strong>Phone#:</strong> 09564601787</p>
+      <p><strong>Location:</strong> Binalonan, Pangasinan</p>
+    </div>
+  </section>
+
+
+  <footer class="text-center">
+    <p>&copy; 2025 UEP Cafe. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
